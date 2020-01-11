@@ -1,0 +1,5 @@
+build/
+.vscode/
+embuild/
+.emscripten_cache/
+imgui.ini

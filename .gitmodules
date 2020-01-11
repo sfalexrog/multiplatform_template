@@ -1,0 +1,8 @@
+[submodule "deps/SDL2"]
+	path = deps/SDL2
+	url = https://github.com/spurious/sdl-mirror
+	branch = release-2.0.10
+[submodule "deps/imgui"]
+    path = deps/imgui
+	url = https://github.com/ocornut/imgui
+	branch = master
