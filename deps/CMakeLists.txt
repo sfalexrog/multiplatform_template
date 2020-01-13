@@ -24,6 +24,7 @@ if (EMSCRIPTEN)
     add_library(SDL2::SDL2 ALIAS SDL2-static)
 else()
     add_library(SDL2::SDL2 ALIAS SDL2)
+    add_library(SDL2::SDL2-static ALIAS SDL2-static)
 endif()
 
 # Always use bundled imgui (not that we have any say in the matter...)
