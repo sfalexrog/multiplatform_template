@@ -19,4 +19,4 @@ At the very least, I'm targeting these platforms (in no particular order):
 
 Ideally, each resulting project should have a web version that is automatically deployed to Github Pages. This means using a CI system (for which a template is also a welcome thing).
 
-Each platform is going to present its own set of challenges. These challenges will eventually be documented in a separate file.
+Each platform is going to present its own set of challenges. These challenges will eventually be documented in a separate file. (**UPDATE**: [some info there](docs/platform-quirks.md))
