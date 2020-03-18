@@ -12,7 +12,7 @@ At the very least, I'm targeting these platforms (in no particular order):
 
 - [x] GNU/Linux
 - [x] Web (through Emscripten)
-- [ ] Android
+- [x] Android
 - [ ] Windows
 - [ ] macOS
 - [ ] iOS

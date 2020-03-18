@@ -35,6 +35,8 @@ This adds the required suffix only to the `main` target, which is your executabl
 
 ## Android
 
+> Update (2020.03.18): SDL2 2.0.12 actually seems to fix the problems that are outlined below, making Android a nicely supported target!
+
 Funny how older versions of SDL2 for Android were extremely easy to build, isn't it? Well, not anymore, and it's not even the fault of the SDL2 developers.
 
 See, SDL2 uses `dlopen()` and `dlfcn()` calls to find your `main` function (which is transformed to `SDL_main` by the magic of macros). Now, there's nothing inherently bad with that, the only loaded libraries are the ones in your package, but somehow `dlopen()` seems to fail, and your `dlerror()` call (that you perform right after `dlopen()`, of course) returns `NULL`. So what's the deal here?
