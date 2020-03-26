@@ -1,0 +1,21 @@
+FROM ubuntu:bionic
+
+# Install SDL2 build dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    libtool \
+    libasound2-dev \
+    libpulse-dev \
+    libaudio-dev \
+    libx11-dev \
+    libxext-dev \
+    libxrandr-dev \
+    libxcursor-dev \
+    libxi-dev \
+    libxinerama-dev \
+    libxxf86vm-dev \
+    libxss-dev \
+    libgl1-mesa-dev \
+    libgles2-mesa-dev \
+  && rm -rf /var/lib/apt/lists/*
